@@ -45,12 +45,7 @@
             },
             "config.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" onload=\"true\" value=\"org.apache.cordova.labs.keyboard.Keyboard\" /></feature>",
-                            "count": 1
-                        }
-                    ]
+                    "/*": []
                 }
             },
             "AndroidManifest.xml": {
@@ -98,9 +93,6 @@
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
         },
-        "cordova-plugin-keyboard": {
-            "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
-        },
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
         },
@@ -146,14 +138,6 @@
                 "cordova.plugins.Keyboard"
             ],
             "runs": true
-        },
-        {
-            "id": "cordova-plugin-keyboard.keyboard",
-            "file": "plugins/cordova-plugin-keyboard/www/keyboard.js",
-            "pluginId": "cordova-plugin-keyboard",
-            "clobbers": [
-                "window.Keyboard"
-            ]
         },
         {
             "id": "cordova-plugin-file.DirectoryEntry",
@@ -464,7 +448,6 @@
     "plugin_metadata": {
         "cordova-plugin-globalization": "1.0.6",
         "ionic-plugin-keyboard": "2.2.1",
-        "cordova-plugin-keyboard": "1.1.5",
         "cordova-plugin-compat": "1.1.0",
         "cordova-plugin-file": "4.3.2",
         "cordova-plugin-media": "3.0.0",

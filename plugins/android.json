@@ -13,9 +13,6 @@
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
         },
-        "cordova-plugin-keyboard": {
-            "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
-        },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.packtpub.phonegaphotshot.filerv7"
         },

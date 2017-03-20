@@ -26,14 +26,6 @@ module.exports = [
         "runs": true
     },
     {
-        "id": "cordova-plugin-keyboard.keyboard",
-        "file": "plugins/cordova-plugin-keyboard/www/keyboard.js",
-        "pluginId": "cordova-plugin-keyboard",
-        "clobbers": [
-            "window.Keyboard"
-        ]
-    },
-    {
         "id": "cordova-plugin-file.DirectoryEntry",
         "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
         "pluginId": "cordova-plugin-file",
@@ -344,7 +336,6 @@ module.exports.metadata =
 {
     "cordova-plugin-globalization": "1.0.6",
     "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-keyboard": "1.1.5",
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-file": "4.3.2",
     "cordova-plugin-media": "3.0.0",

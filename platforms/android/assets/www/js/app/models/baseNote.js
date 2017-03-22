@@ -149,7 +149,7 @@ define( [ "yasmf" ], function( _y ) {
       self._status = theStatus;
       self.notify( "statusChanged" );
     };
-    Object.defineProperty( self, "status", {
+    Object.defineProperty( self, "Status", {
       get: self.getStatus,
       set: self.setStatus,
       configurable: true
@@ -283,9 +283,9 @@ define( [ "yasmf" ], function( _y ) {
         self.textContents = aNote.textContents;
         self.mediaContents = aNote.mediaContents;
         self.unitValue = aNote.unitValue; // so we don't have to recalc it
+        self.Status = aNote.Status;                              //Added deserilizes the JSON String Status passed in
         // but assign this one last so we have the proper modification date
         self._modifiedDate = new Date( aNote.modifiedDate );
-        self.Status = aNote.Status;                              //Added deserilizes the JSON String Status passed in
         return true;
       } catch ( e ) {
         return false;

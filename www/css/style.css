@@ -348,3 +348,9 @@ body.android {
   min-height: 0 !important;
   opacity: 0.5;
 }
+img {
+  float: right;
+  margin-right: 1%;
+  width: 8%;
+  height: auto;
+}
